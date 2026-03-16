@@ -41,3 +41,17 @@ make
 
 - Ensure the pre-trained models are in the same directory as the executable.
 - Adjust the camera index in `VideoCapture` if using an external camera.
+
+## Git commit message format
+feat: Add unit tests for user authentication
+
+Implement comprehensive unit tests for the user authentication module
+to ensure reliability and prevent regressions. This addresses issue #123.
+
+The tests cover:
+* Valid login
+* Invalid credentials
+* Token generation and validation
+
+Refs: #123
+
